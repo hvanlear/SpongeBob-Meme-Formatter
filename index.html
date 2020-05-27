@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="shortcut icon" href="Layer1.png" />
+    <title>Spongebob Text Format</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="title"><h1>iTs jUsT A MeMe</h1></div>
+
+      <img src="mocking-spongebob.jpg" alt="" srcset="" />
+      <form action="">
+        <input
+          class="textInput"
+          type="text"
+          name=""
+          id=""
+          placeholder="Enter Text"
+          onKeyPress="upperLower()"
+          onKeyUp="upperLower()"
+          onchange="upperLower()"
+        />
+      </form>
+
+      <p id="output"></p>
+      <button class="btn" data-clipboard-target="#output">COPY</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
